@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&family=Work+Sans:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Define the custom text color class in a layer */
+/* @layer utilities {
+  .text-primary-text {
+    color: theme("colors.primary-text");
+  }
+} */
+
+/* Set the default text color for the body element */
+body {
+  @apply bg-[#2B2B2B];
+  /* @apply text-primary-text; */
+}
+
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+}
+
+.font-space-mono {
+  font-family: "Space Mono", monospace;
+}
