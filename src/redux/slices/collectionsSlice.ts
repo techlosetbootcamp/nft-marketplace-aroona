@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { CollectionsState } from "../../types/types";
-import api from "../../axiosInstance/api";
+import api from "../../utils/axiosInstance/api";
 
 const initialState: CollectionsState = {
   collections: [],

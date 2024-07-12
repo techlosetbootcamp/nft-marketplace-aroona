@@ -1,4 +1,3 @@
-// src/types/types.ts
 export type Collections = {
   collection: string;
   name: string;

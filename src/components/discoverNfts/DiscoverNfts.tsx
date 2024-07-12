@@ -48,7 +48,7 @@ export default function DiscoverNfts(): React.JSX.Element {
               </button>
             </div>
             <div className="container mx-auto p-4 bg-[#2B2B2B]">
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
                 {visibleCollection.map((item: Collection) => (
                   <div
                     key={item.collection}
@@ -110,17 +110,6 @@ export default function DiscoverNfts(): React.JSX.Element {
               </div>
             </div>
           </div>
-
-          <div className="mx-[-30px] md:mx-[-72px] lg:mx-[-115px]"></div>
-          <button className=" md:hidden border-2 border-purple w-full h-[60px] rounded-[20px] flex items-center justify-center">
-            <Link
-              to={`/collection/big-hugs`}
-              className="flex items-center justify-center gap-[12px]"
-            >
-              <EyeIcon />
-              <span className="text-white">See All</span>
-            </Link>
-          </button>
         </div>
       </div>
     </>

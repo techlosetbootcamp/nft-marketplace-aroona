@@ -80,7 +80,7 @@ const HeroData = () => {
                     style={{ backgroundImage: `url(${Avatar})` }}
                   ></div>
                   <Link
-                    to={`/collection/${item?.collection}`}
+                    to={`collection/${item?.collection}`}
                     key={item?.category}
                   >
                     <span className="text-white text-base md:text-lg">
